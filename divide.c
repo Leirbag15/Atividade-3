@@ -8,10 +8,12 @@ void divide (int v[], int d){
         printf("%d", v1[i]);
     }
     printf("]");
+    printf("[");
     for (int i=d; i<n; i++){
         v2[i]=v[i];
         printf("%d", v2[i]);
     }
+    printf("]");
 }
 int n; //size 
 int main()
