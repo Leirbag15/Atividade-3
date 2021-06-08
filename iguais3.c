@@ -1,3 +1,4 @@
+#include <stdio.h>
 int iguais3 (int a, int b, int c){
     if(a==b && b==c){
         return 3;
